@@ -3,11 +3,23 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import json
 import os
+import spacy
 
 app = Flask(__name__)
 
-# Initialisation du ChatBot
-chatbot = ChatBot('MonProjetBot')
+nlp = spacy.load('en_core_web_sm')
+
+
+# Initialisation du ChatBot avec SQLite pour le stockage
+chatbot = ChatBot(
+    'MonProjetBot',
+    storage_adapter='chatterbot.storage.SQLStorageAdapter',  # Utilisation de SQLite
+    logic_adapters=[
+        'chatterbot.logic.BestMatch'
+    ],
+    database_uri='sqlite:///chatterbot.db'  # SQLite pour la persistance des données
+)
+
 trainer = ListTrainer(chatbot)
 
 # Chemin vers le fichier JSON contenant les données

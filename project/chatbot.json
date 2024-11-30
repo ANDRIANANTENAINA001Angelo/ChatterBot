@@ -1,4 +1,54 @@
 [
-    {"question": "Comment s'appelle le projet ?", "answer": "MonProjetAI"},
-    {"question": "Quels produits sont disponibles ?", "answer": "Chatbots et outils d'analyse"}
+    {
+        "question": "Comment s'appelle le projet ?",
+        "answer": "MonProjetAI"
+    },
+    {
+        "question": "Quels produits sont disponibles ?",
+        "answer": "Chatbots et outils d'analyse"
+    },
+    {
+        "question": "Bonjour !",
+        "answer": "Bonjours, Comment puis-je vous aider ?"
+    },
+    {
+        "question": "Comment tu t'appel ?",
+        "answer": "Je m'appel MonProjetAI"
+    },
+    {
+        "question": "Dis moi plus sur le projet ?",
+        "answer": "MonProjetAI est faite pour vous aider dans ce que vous faite ?"
+    },
+    {
+        "question": "Quels services vous offre pour nous les clients ?",
+        "answer": "On vous offre : des chatbots, des sites webs, des outils d'analyse et bien d'autre. "
+    },
+    {
+        "question": "Au revoir !",
+        "answer": "Au revoir, c'est un plaisir de vous aider. N'hésiter pas à me demander ! "
+    },
+    {
+        "question": "Quels sont les services disponibles chez-vous ??",
+        "answer": "Chatbots et outils d'analyse"
+    },
+    {
+        "question": "Merci ",
+        "answer": "Au revoir, c'est un plaisir de vous aider. N'hésiter pas à me demander !"
+    },
+    {
+        "question": "Bye ",
+        "answer": "A plus, c'est un plaisir de vous aider. N'hésiter pas à me demander !"
+    },
+    {
+        "question": "Bonjour !",
+        "answer": "Bonjours, Comment puis-je vous aider ?"
+    },
+    {
+        "question": "je veux savoir vos services",
+        "answer": "Chatbots et outils d'analyse"
+    },
+    {
+        "question": "merci",
+        "answer": "Au revoir, c'est un plaisir de vous aider. N'hésiter pas à me demander !"
+    }
 ]
