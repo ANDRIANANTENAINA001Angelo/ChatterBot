@@ -1,5 +1,5 @@
 # About
-Chat Bot based on personnalized data (json)
+Chat Bot based on personnalized data (json) with ChatterBot
 
 # Fonctionality
 * Train
